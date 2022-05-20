@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: aliceblue;
+  color: white;
+}
+
+.header{
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: blueviolet;
+  
+}
+
+.inner-header{
+  font-size: 50px;
+  display: flex;
+  padding-top: 15px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.row1, .row2, .row3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+img[src="images/image1.jpg"]{
+  border: 10px solid blueviolet;
+}
+
+img[src="images/image2.jpg"]{
+  border: 10px solid blueviolet;
+  border-style: dashed;
+}
+
+img[src="images/iamge3.jpg"]{
+  border: 10px solid blueviolet;
+  border-style: dotted;
+}
+
+img[src="images/image4.jpg"]{
+  border: 10px solid blueviolet;
+  border-style: groove;
+}
+
+img[src="images/image5.jpg"]{
+  border: 10px solid blueviolet;
+  border-style: groove;
+  width: 100px;
+  height: 100px;
+}
+
+.img5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid blueviolet;
+  width: 150px;
+  height: 150px;
+  
+}
+
+img[src="images/image6.jpg"]{
+  border: 10px solid blueviolet;
+  border-style: rid;
+}
+
+img[src="images/image7.jpg"]{
+  border: 10px solid blueviolet;
+  border-style: hidden;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  margin: 30px 20px;
+  box-shadow: 10px 10px 20px black;
+  
+}
+
+
+
+.food-para{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  width: 800px;
+  height: 340;
+  margin: auto;
+  border-left: 10px solid red;
+  border-top: 10px solid green;
+  border-bottom: 10px solid blue;
+  border-right: 10px solid palevioletred;
+
+  padding: 20px;
+}
+
+.food-para h1{
+  text-align: center;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  margin-top: 10px;
+  height: 50px;
+}
+
+a{
+  margin: 10px;
+  color: white;
+  text-decoration: underline;
+}
+
+
